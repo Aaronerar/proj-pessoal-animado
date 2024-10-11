@@ -1,0 +1,23 @@
+.home {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #000000, #00c2cb);
+    color: white;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home h1 {
+      font-size: 2em;
+    }
+  }
+  

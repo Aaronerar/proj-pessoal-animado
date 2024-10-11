@@ -1,0 +1,24 @@
+.contact {
+    padding: 80px 20px;
+    background-color: #121212;
+    text-align: center;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 800px;
+    color: #00c2cb;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s 1.5s forwards;
+  }
+  
+  .contact p a {
+    color: #00c2cb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .contact p a:hover {
+    color: #00a0a6;
+  }
+  
